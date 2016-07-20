@@ -14,29 +14,9 @@
 		};
 		$scope.steps = [
 			{
-				templateUrl: 'principal.html',
+				templateUrl: 'form.html',
 				title: '0'
 			},
-			{
-				templateUrl: 'lista-peliculas.html',
-				title: '33'
-			},
-			{
-				templateUrl: 'lista-cines.html',
-				title: '33'
-			},
-			{
-				templateUrl: 'asientos.html',
-				title: '66'
-			},
-			{
-				templateUrl: 'pago.html',
-				title: '100'
-			},
-			{
-				templateUrl: 'resumen.html',
-				title: '100'
-			}
 		];
 		$scope.cancel = function () {
 			alert('Compra cancelada, será redirigido a la página principal');

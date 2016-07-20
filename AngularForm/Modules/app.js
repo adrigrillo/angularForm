@@ -17,4 +17,20 @@
 				redirectTo: "/"
 			});
 	});
+
+	/***************************************************
+	 * DIRECTIVAS
+	 * -------------------------------------------------
+	 * Las directivas se utilizan cogiendo el nombre 
+	 * separado con guiones, es decir, si la directiva
+	 * es 'molaMucho' en el html se utilizará:
+	 * <mola-Mucho></mola-Mucho>
+	 **************************************************/
+	/* Directiva formulario */
+	app.directive('piePag', function () {
+		return {
+			restrict: 'E',
+			templateUrl: 'footer.html'
+		};
+	});
 })();
