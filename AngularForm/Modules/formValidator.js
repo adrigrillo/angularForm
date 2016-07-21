@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    var app = angular.module('validator', []);
+    var app = angular.module('validator', ["ngMaterial"]);
 
     app.controller("verCine", ["$scope", "cine", function ($scope, cine) {
         function nombreCine(nombre) {
