@@ -1,0 +1,13 @@
+﻿<form name="step3Form" novalidate form-step-validity>
+    <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
+    <!-- Fecha de nacimiento -->
+    <div class="form-group" ng-controller="calendarioPop">
+        <label>Fecha de nacimiento</label>
+        <div class="input-group">
+            <input type="text" name="fecNacimiento" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" placeholder="Introduce tu fecha de nacimiento" required>
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </div>
+    </div>
+</form>

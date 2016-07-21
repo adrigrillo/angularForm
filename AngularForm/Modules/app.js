@@ -10,8 +10,8 @@
 			.when("/", {
 				templateUrl: "form.html"
 			})
-			.when("/home", {
-				templateUrl: "form.html"
+			.when("/about", {
+				templateUrl: "footer.html"
 			})
 			.otherwise({
 				redirectTo: "/"

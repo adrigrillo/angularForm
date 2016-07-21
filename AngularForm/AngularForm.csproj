@@ -66,13 +66,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="footer.html" />
+    <Content Include="App\footer.html" />
+    <Content Include="App\Steps\step2.html" />
+    <Content Include="App\Steps\step3.html" />
+    <Content Include="Modules\formValidator.js" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\angular-messages.js" />
+    <Content Include="Scripts\angular-messages.min.js" />
     <Content Include="Scripts\angular-multi-step-form.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular-touch.min.js.map" />
+    <Content Include="Scripts\angular-messages.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -86,8 +92,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
-    <Content Include="form.html" />
-    <Content Include="index.html" />
+    <Content Include="App\form.html" />
+    <Content Include="App\index.html" />
     <Content Include="Modules\app.js" />
     <Content Include="Modules\formController.js" />
     <Content Include="Scripts\angular-animate.js" />
@@ -112,6 +118,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="App\Steps\step1.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
