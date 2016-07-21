@@ -73,7 +73,7 @@
 		$scope.format = 'dd/MM/yyyy';
 
 		$scope.popup1 = {
-			opened: false
+			opened: true
 		};
 
 		function getDayClass(data) {
