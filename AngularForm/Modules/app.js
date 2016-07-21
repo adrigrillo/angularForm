@@ -26,7 +26,14 @@
 	 * es 'molaMucho' en el html se utilizará:
 	 * <mola-Mucho></mola-Mucho>
 	 **************************************************/
-	/* Directiva formulario */
+	/* Directiva cabecera */
+	app.directive('headPag', function () {
+		return {
+			restrict: 'E',
+			templateUrl: 'header.html'
+		};
+	});
+	/* Directiva pie */
 	app.directive('piePag', function () {
 		return {
 			restrict: 'E',

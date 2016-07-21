@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\footer.html" />
+    <Content Include="App\header.html" />
     <Content Include="App\Steps\step2.html" />
     <Content Include="App\Steps\step3.html" />
     <Content Include="Content\angular-material.css" />
