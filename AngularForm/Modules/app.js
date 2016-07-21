@@ -1,7 +1,7 @@
 ﻿(function () {
 	'use strict';
 
-	var app = angular.module('app', ["ngMaterial", "ngRoute", "formulario"]);
+	var app = angular.module('app', ["ngMaterial", "ui.bootstrap", "ngRoute", "formulario"]);
 
 
 	/* Routeador */

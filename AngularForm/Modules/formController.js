@@ -1,7 +1,7 @@
 ﻿(function () {
 	'use strict';
 
-	var formulario = angular.module('formulario', ["ngMaterial", "multiStepForm", "validator"]);
+	var formulario = angular.module('formulario', ["ngMaterial", "ngAnimate", "ui.bootstrap", "ui.bootstrap.datepicker", "multiStepForm", "validator"]);
 
 	formulario.controller('formController', function ($scope, $location, $route) {
 		$scope.model = {
@@ -33,5 +33,12 @@
 			$location.path('/home');
 			$route.reload();
 		};
+	});
+
+	formulario.controller('dateController', function ($scope) {
+	    $scope.today = function () {
+	        $scope.dt = new Date();
+	    };
+
 	});
 })();
