@@ -36,9 +36,25 @@
 	});
 
 	formulario.controller('dateController', function ($scope) {
-	    $scope.today = function () {
-	        $scope.dt = new Date();
+	    $scope.dateOptions = {
+	        format: 'dd/MM/yyyy',
+	        maxDate: new Date(2020, 5, 22),
+	        minDate: new Date(),
+	        startingDay: 1
 	    };
 
+	    $scope.open1 = function () {
+	        $scope.popup1.opened = true;
+	    };
+
+	    $scope.setDate = function (year, month, day) {
+	        $scope.model.fecha = new Date(year, month, day);
+	    };
+
+	    $scope.format = 'dd/MM/yyyy';
+
+	    $scope.popup1 = {
+	        opened: false
+	    };
 	});
 })();
